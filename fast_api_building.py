@@ -65,7 +65,7 @@ def _build_agent(*, user_id: str, session_id: str) -> Agent:
         name="Milberg Intake Assistant",
         model=OpenAIChat(
         id="gpt-4.1-mini-2025-04-14",
-        api_key='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',
+        api_key='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',
         max_tokens=100,
         
     ),
@@ -152,4 +152,5 @@ if __name__ == "__main__":
         host=os.getenv("HOST", "0.0.0.0"),
         port=int(os.getenv("PORT", "8000")),
         reload=os.getenv("RELOAD", "1").lower() in {"1", "true", "yes"},
+
     )
