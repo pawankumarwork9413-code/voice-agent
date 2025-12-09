@@ -2,5 +2,5 @@ agno
 crawl4ai
 openai
 ag-ui-protocol
-fast-api
+fastapi[all]
 uvicorn
