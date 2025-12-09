@@ -3,4 +3,5 @@ crawl4ai
 openai
 fastapi[all]
 uvicorn
+sqlalchemy
 
